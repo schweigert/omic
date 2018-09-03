@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage{graphicx,url,wrapfig}
+\usepackage{listings}
+% indentfirst, wrapfig
+\usepackage[brazil]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+% UTF-8 encoding is recommended by ShareLaTex
+\sloppy
+\title{LCD TFT 2.4'}
+\author{Jonathan de Oliveira Cardoso\inst{1} Marlon H. Schweigert\inst{1} Mateus S. Tavares\inst{1}}
+\address{Departamento de Ciência da Computação\\Universidade do Estado de Santa Catarina (UDESC)\\
+  Joinville -- SC -- Brazil
+  \email{jonnyydeoliveira@gmail.com, fleyhe0@gmail.com, maseta.mateus@gmail.com}}
+
+\begin{document}
+\maketitle
+\section{Introdução} \label{sec:relatorio}
+
+\begin{center}
+	\includegraphics[width=10cm]{Display_TFT_Texto_Graficos.png}
+\end{center}
+
+Bibliotecas utilizadas foram Adafruit\_GFX, Adafruit\_TFTLCD e um wrapper delas(CUFRIEND\_kbv).
+Essa biblioteca implementa métodos que escrevem os pixels na tela TFT pelos 6 pinos LCD Data.
+
+\begin{lstlisting}[language=c]
+  tft.drawRoundRect(5, 70, 312, 50, 5, WHITE);
+  tft.drawRoundRect(255, 70, 62, 50, 5, WHITE);
+  tft.setTextColor(GREEN);
+  tft.setTextSize(3);
+  tft.setCursor(15, 85);
+  tft.println("Led Verde");
+\end{lstlisting}
+
+Além de escrever pixels diretamente, ele permite desenhar padrões diretamente na tela.
+Dessa forma podemos desenhar padrões como retângulos, circunferências, retas, pontos
+e até mesmo caracteres.
+
+\section{Pinagem} \label{sec:pin}
+
+\begin{center}
+	\includegraphics[width=7cm]{Tabela_Pinos_TFT.png}
+\end{center}
+
+Os 3 pinos iniciais (descritos em verde) para alimentação do display. Esse display é alimentado com 3.5 volts. Outra entrada é dedicada a alimentação do leitor de Cartão SD.
+
+O pino A0 referece a sincronização de dados com o display.
+Os pinos A1 e D6 são referentes ao posicionamento do do toque na tela.
+Os pinos A2 e D7 são referentes ao movimento exercido no dedo.
+
+Os pinos D2, D3, D4, D5, D8 e D9 são referentes as informações Posição(x,y), utilizando o sistema carteziano e Cor(r,g,b), utilizando o padrão vermelho, verde e azul.
+
+\section{Componentes} \label{sec:comp}
+
+O Shield contém componentes para viabilizar a utilização direta do display TFT 2.4' diretamente com o arduino. Isso inclui dois circuítos integrados para transformar 5v para 3.5v, e visse versa.
+
+Além disso, ele já traz uma placa com plugins diretos ao padrão do projeto arduino, transformando o display em um periférico \textit{plug and play}
+\begin{center}
+	\includegraphics[width=10cm]{mcu_shield.jpg}
+\end{center}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+%/remover pra avisar referencias nao utilizadas
+\nocite{*}
+
+\end{document}

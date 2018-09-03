@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1504711666 source:c:\users\leandrop.leandro\downloads\omic\fuse.c
+	<avr/io.h>
+
+1504713051 source:c:\users\leandrop.leandro\downloads\omic\main.c
+	<ctype.h>
+	<stdint.h>
+	<stdio.h>
+	<avr/io.h>
+	<util/delay.h>
+	"serial.h"
+	"mypins.h"
+
+1504713236 c:\users\leandrop.leandro\downloads\omic\serial.h
+	<stdio.h>
+	<stdint.h>
+
+1504709647 c:\users\leandrop.leandro\downloads\omic\mypins.h
+
+1504713241 source:c:\users\leandrop.leandro\downloads\omic\serial.c
+	<avr/io.h>
+	"serial.h"
+
+1504711666 source:c:\users\leandrop.leandro\dropbox\academico\materialomic2\omic\fuse.c
+	<avr/io.h>
+
+1504782151 source:c:\users\leandrop.leandro\dropbox\academico\materialomic2\omic\main.c
+	<ctype.h>
+	<stdint.h>
+	<stdio.h>
+	<avr/io.h>
+	<util/delay.h>
+	"serial.h"
+	"mypins.h"
+
+1504782896 c:\users\leandrop.leandro\dropbox\academico\materialomic2\omic\serial.h
+	<stdio.h>
+	<stdint.h>
+
+1504709647 c:\users\leandrop.leandro\dropbox\academico\materialomic2\omic\mypins.h
+
+1504713241 source:c:\users\leandrop.leandro\dropbox\academico\materialomic2\omic\serial.c
+	<avr/io.h>
+	"serial.h"
+
+1505321474 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\lavadora\fuse.c
+	<avr/io.h>
+
+1505321474 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\lavadora\main.c
+	<ctype.h>
+	<stdint.h>
+	<stdio.h>
+	<avr/io.h>
+	<util/delay.h>
+	"serial.h"
+	"mypins.h"
+
+1505321474 c:\users\udesc.cctcc\documents\udesc\bcc\mic\lavadora\serial.h
+	<stdio.h>
+	<stdint.h>
+
+1505321474 c:\users\udesc.cctcc\documents\udesc\bcc\mic\lavadora\mypins.h
+
+1505321474 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\lavadora\serial.c
+	<avr/io.h>
+	"serial.h"
+

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1483554176 source:c:\users\leandro\dropbox\academico\materialomic\exemplos-avr\avr-blink\fuse.c
+	<avr/io.h>
+
+1503506830 source:c:\users\udesc.cctcc\downloads\avr-blink2\avr-blink\fuse.c
+	<avr/io.h>
+
+1503506830 source:c:\users\udesc.cctcc\downloads\avr-blink2\avr-blink\main.c
+	<avr/io.h>
+	<util/delay.h>
+
+1503506863 source:c:\users\udesc.cctcc\downloads\avr-blink2\avr-blink\adc.c
+	<avr/io.h>
+	"adc.h"
+
+1503506863 c:\users\udesc.cctcc\downloads\avr-blink2\avr-blink\adc.h
+
+1503608005 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula008\adc.c
+	<avr/io.h>
+	"adc.h"
+
+1503608005 c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula008\adc.h
+
+1503608005 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula008\fuse.c
+	<avr/io.h>
+
+1504111259 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula009\adc.c
+	<avr/io.h>
+	"adc.h"
+
+1504111259 c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula009\adc.h
+
+1504111259 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula009\fuse.c
+	<avr/io.h>
+
+1504115398 source:c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula009\main.c
+	<avr/io.h>
+	<util/delay.h>
+	"adc.h"
+	"serial.h"
+
+1504112624 c:\users\udesc.cctcc\documents\udesc\bcc\mic\aula009\serial.h
+
